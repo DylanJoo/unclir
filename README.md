@@ -10,6 +10,23 @@ In this track, we target on how embeddings behave in the context of
 ### Goal 
 ### The reranking tasks 
 
+#### The first-stage candidates
+- Mutlilingaul 
+| Dataset    | lang | retrieval | metric    |  score  | 
+| ---        | ---  | ---       | ---       | ---     |
+| miracl-dev | en   | bm25      |  nDCG@10  | 0.3504  | 
+| miracl-dev | fa   | bm25      |  nDCG@10  | 0.3332  | 
+| miracl-dev | ru   | bm25      |  nDCG@10  | 0.3342  | 
+| miracl-dev | zh   | bm25      |  nDCG@10  | 0.1801  | 
+| miracl-dev | en   | bm25      | Recall@10 | 0.4515  | 
+| miracl-dev | fa   | bm25      | Recall@10 | 0.4368  | 
+| miracl-dev | ru   | bm25      | Recall@10 | 0.3991  | 
+| miracl-dev | zh   | bm25      | Recall@10 | 0.2504  | 
+
+- Crosslingual 
+| Dataset    | lang | retrieval | metric    |  score  | 
+| ---        | ---  | ---       | ---       | ---     |
+
 ## Preparation: before start
 
 ### Datasets
